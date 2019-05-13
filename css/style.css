@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+/*----------------------Header Area Style----------------------------*/
+header{
+	/*background-color: deepskyblue;*/
+}
+.container{
+	margin: 0 auto;
+	width: 74%;
+}
+.row{
+	height: 80px;
+	line-height: 80px
+}
+.logo img{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+header nav{
+	float: right;
+}
+ul{
+	list-style: none;
+}
+.nav-item{
+	position: relative;
+	display: inline-block;
+	padding: 0.5em 0.9em;
+}
+.nav-item .wrap{
+	display: none;
+}
+.nav-item a{
+	text-decoration: none;
+	color: #0e3050;
+	font-size: 1.2em;
+}
+.nav-item a:hover{
+	color: red;
+}
+.nav-item:hover .wrap{
+	display: block;
+}
+.nav-item .wrap .arrow{
+	position: absolute;
+	margin-top: -40px;
+	width: 60px;
+	height: 32px;
+	color: #ecf0f5;
+	line-height: 32px;
+	text-align: center;
+	/*background: url('../img/up_arrow.png') no-repeat center;*/
+}
+.ul-list{
+	position: absolute;
+	top: 80px;
+	left: -100px;
+	padding: 1em 1.2em;
+	width: 506px;
+	border-radius: 5px;
+	background:#ecf0f5;
+	z-index: 990;
+}
+.ul-list ul{
+	display: inline-block;
+	width: 180px;
+}
+.ul-list ul li{
+	height: 30px;
+	line-height: 30px;
+}
+.ul-list ul li a{
+	font-size:1em;
+	padding: 0 1em;
+}
+.ul-list .ul-child1,.ul-list .ul-child2{
+	border-right: 1px solid #ccc;
+}
+.ul-list .ul-child1,.ul-list .ul-child2,.ul-list .ul-child3{
+	/*设置顶端对齐*/
+	vertical-align: top;
+}
+.ul-list .ul-child3{
+	width: 135px;
+}
