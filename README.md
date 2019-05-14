@@ -1,2 +1,2 @@
 # lanchuangkj-Website
-make a conpany website with html,css,javascript
+make a conpany website with html5,css,javascript
