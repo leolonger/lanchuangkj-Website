@@ -8,8 +8,10 @@
 	<meta name="keywords" content="">
 	<title>蓝海乐创_医疗卫生信息新兴企业</title>
 	<link rel="shortcut icon" type="images/x-icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<!-- 头部导航栏 -->
@@ -25,8 +27,6 @@
 							<div class="wrap">
 								<!-- 小三角，指向所属栏目 -->
 								<div class="arrow"><span class="iconfont">&#xe60f;</span></div>
-								<!-- <span class="iconfont">&#xe60f;</span> -->
-								<!-- <div class="arrow"></div> -->
 								<div class="ul-list">
 									<ul class="ul-child1">
 										<li><a href="">医疗设备管理系统</a></li>
@@ -53,5 +53,29 @@
 			</div>
 		</div>
 	</header>
+	<!-- 轮播图 -->
+	<section class="slider-area slider">
+	    <div><a href=""><img src="img/slide1.jpg" alt="slider image"></a></div>
+	    <div><a href=""><img src="img/slide2.jpg" alt="slider image"></a></div>
+	    <div><a href=""><img src="img/slide3.jpg" alt="slider image"></a></div>
+	</section>
+
+
+
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function(){
+				$('.slider').slick({
+					dots:true,
+					infinite:true,
+					arrow:false,
+					autoplay:true,
+					autoplaySpeed:2000
+				});
+			});
+		</script>
 </body>
 </html>
