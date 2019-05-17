@@ -9,8 +9,20 @@ html,body{
 a{
 	text-decoration: none;
 }
+@media screen and (max-width: 1199px){
+	.advantage{
+		width: 950px;
+		margin: 10px auto;
+	}
+}
+@media screen and (min-width: 120px){
+	.advantage{
+		width: 75%;
+		margin: 10px auto;
+	}
+}
 
-/*----------------------Header Area Style----------------------------*/
+/*----------Header Area Style----------*/
 header{
 	/*background-color: deepskyblue;*/
 }
@@ -137,4 +149,59 @@ ul{
 /*隐藏默认的指示点*/
 .slick-dots li button::before, .slick-dots li.slick-active button:before{
 	opacity: 0;
+}
+
+/*----------Advantage Area Style----------*/
+.img-title{
+	text-align: center;
+}
+.advantage h2{
+	margin-top:.8em;
+	height: 3em;
+	line-height: 3em;
+	color: #0e3152;
+	text-align: center;
+	background: url(../img/hx.png) no-repeat bottom center;
+}
+/*.advantage-title{
+	margin-top: .8em;
+	height: 3em;
+	line-height: 3em;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+.advantage-title{
+	color: #0e3152;
+	background: url(../img/hx.png) no-repeat bottom center;
+}*/
+.advantage-detail{
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color:#666666;
+}
+.content{
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+.panel{
+	float: left;
+	display: inline;
+	width: 24%;
+	margin: 0 0.5%;
+	text-align: center;
+}
+.panel img{
+	margin: 1.5em auto 1em;
+}
+.panel img:hover{
+	opacity: .6;
+	filter: left;
+	text-align: center;
+}
+.panel h4,.panel p{
+	padding:.2em .5em; 
+	line-height: 1.5em;
+	color:#0e3152;
 }
